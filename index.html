@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Attacker  Tool By Husssain- Extract & Download Website Code</title>
+    <title>Website Attacker Tool By Husssain- Extract & Download Website Code</title>
     <style>
         * {
             margin: 0;
@@ -368,7 +368,7 @@
 
                 // Create a mock zip file content
                 const mockZipContent = this.createMockZipContent(job.url);
-                const blob = new Blob([mockZipContent], { type: 'application/zip' });
+                const blob = new Blob([mockZipContent], { type: 'text/plain' }); // Changed to text/plain
                 return blob;
             }
 
@@ -422,7 +422,7 @@
 
             createMockZipContent(url) {
                 const domain = new URL(url).hostname;
-                return `Mock ZIP file content for ${domain}\n\nThis would contain:\n- index.html\n- styles.css\n- script.js\n- images/\n- assets/\n\nGenerated at: ${new Date().toISOString()}`;
+                return `Mock file content for ${domain}\n\nThis is a simulation.\nNo files were actually downloaded.\n\nGenerated at: ${new Date().toISOString()}`;
             }
         }
 
@@ -508,7 +508,7 @@
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = 'website-copy-demo.txt';
+                a.download = 'website-copy-demo.txt'; // It downloads a .txt file
                 document.body.appendChild(a);
                 a.click();
                 window.URL.revokeObjectURL(url);
@@ -578,18 +578,7 @@
                 startCopy();
             }
         });
-    </script>
- <script type='text/javascript' src='//pl27996843.effectivegatecpm.com/79/5d/82/795d8242f972b3d3258889c523f3d6e9.js'></script>
- <script type='https://www.effectivegatecpm.com/riezv04j?key=904500160e39d018290b5c42887b8479
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'fe6985267af83fc8f8085705057aa0f4',
-		'format' : 'iframe',
-		'height' : 300,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/fe6985267af83fc8f8085705057aa0f4/invoke.js"></script>
-</body>
+    </script> <script type='text/javascript' src='//pl27953869.effectivegatecpm.com/79/b0/24/79b024a6b37f0b7a6e5c07e931257070.js'></script>
+    
+    </body>
 </html>
